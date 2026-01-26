@@ -7,8 +7,8 @@ export default function Home() {
       <h1 className="font-bold md:text-2xl">warcraftcn</h1>
       <p className="max-w-2xl text-sm md:text-base">
         A set of components inspired by classic Warcraft III RTS UI aesthetics.
-        Parchment, gothic frames, ornate buttons — open source, copy-paste
-        ready. Works with your favorite frameworks. Fan-made. No affiliation.
+        Open source, copy paste ready. Works with your favorite frameworks. Fan
+        made. No affiliation.
       </p>
       <Link className="w-fit" href="/docs">
         <Button className="w-fit" size="sm">
