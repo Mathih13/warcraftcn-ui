@@ -12,8 +12,8 @@ function Card({
     <div
       data-slot="card"
       className={cn(
-        "w-136 h-180 fantasy text-card-foreground gap-4 overflow-hidden rounded-xl text-sm has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl group/card flex flex-col border-solid [border-image-source:url('/warcraftcn/card-bg.webp')] [border-image-repeat:stretch]",
-        "border-24 p-6 py-4 [border-image-slice:24_fill]",
+        "fantasy text-card-foreground gap-4 overflow-hidden rounded-xl text-sm has-data-[slot=card-footer]:pb-0 has-[>img:first-child]:pt-0 data-[size=sm]:gap-3 data-[size=sm]:has-data-[slot=card-footer]:pb-0 *:[img:first-child]:rounded-t-xl *:[img:last-child]:rounded-b-xl group/card flex flex-col border-solid [border-image-source:url('/warcraftcn/card-bg.webp')] [border-image-repeat:stretch]",
+        "border-24 px-6 [border-image-slice:24_fill]",
         "data-[size=sm]:border-16 data-[size=sm]:p-4 data-[size=sm]:py-3 data-[size=sm]:[border-image-slice:16_fill]",
         className
       )}
@@ -27,7 +27,7 @@ function CardHeader({ className, ...props }: React.ComponentProps<"div">) {
     <div
       data-slot="card-header"
       className={cn(
-        "gap-1 pt-20 rounded-t-xl px-4 group-data-[size=sm]/card:px-3 group/card-header @container/card-header grid auto-rows-min items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] has-data-[slot=card-description]:grid-rows-[auto_auto]",
+        "gap-1 pt-14 rounded-t-xl px-4 group-data-[size=sm]/card:px-3 group/card-header @container/card-header grid auto-rows-min items-start has-data-[slot=card-action]:grid-cols-[1fr_auto] has-data-[slot=card-description]:grid-rows-[auto_auto]",
         className
       )}
       {...props}
