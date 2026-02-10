@@ -139,13 +139,8 @@
       "title": "Warcraft Dropdown Menu",
       "description": "A Warcraft-themed dropdown menu component with fantasy styling and border-image frames",
       "dependencies": ["radix-ui", "lucide-react"],
-      "registryDependencies": [],
+      "registryDependencies": ["dropdown-menu"],
       "files": [
-        {
-          "path": "components/ui/warcraftcn/dropdown-menu.tsx",
-          "type": "registry:component",
-          "target": "components/ui/warcraftcn/dropdown-menu.tsx"
-        },
         {
           "path": "components/ui/warcraftcn/styles/warcraft.css",
           "type": "registry:component",

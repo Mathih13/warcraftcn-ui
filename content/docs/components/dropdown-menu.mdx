@@ -21,24 +21,22 @@ import { ChevronDown, Sword, Shield, Wand2, Heart } from "lucide-react";
 
 <DropdownMenu>
   <DropdownMenuTrigger asChild>
-    <Button className="gap-2">
-      Select Class <ChevronDown className="size-4" />
-    </Button>
+    <Button className="flex gap-2 w-96">Select Class</Button>
   </DropdownMenuTrigger>
-  <DropdownMenuContent>
+  <DropdownMenuContent className="w-96">
     <DropdownMenuLabel>Choose Your Path</DropdownMenuLabel>
     <DropdownMenuSeparator />
-    <DropdownMenuItem>
-      <Sword className="size-4" /> Warrior
+    <DropdownMenuItem className="flex gap-2">
+      <Sword className="size-4" /> <div>Warrior</div>
     </DropdownMenuItem>
-    <DropdownMenuItem>
-      <Shield className="size-4" /> Paladin
+    <DropdownMenuItem className="flex gap-2">
+      <Shield className="size-4" /> <div>Paladin</div>
     </DropdownMenuItem>
-    <DropdownMenuItem>
-      <Wand2 className="size-4" /> Mage
+    <DropdownMenuItem className="flex gap-2">
+      <Wand2 className="size-4" /> <div>Mage</div>
     </DropdownMenuItem>
-    <DropdownMenuItem>
-      <Heart className="size-4" /> Priest
+    <DropdownMenuItem className="flex gap-2">
+      <Heart className="size-4" /> <div>Priest</div>
     </DropdownMenuItem>
   </DropdownMenuContent>
 </DropdownMenu>
@@ -73,7 +71,7 @@ import { Button } from "@/components/ui/warcraftcn/button";
     <DropdownMenuItem>Settings</DropdownMenuItem>
     <DropdownMenuItem>Logout</DropdownMenuItem>
   </DropdownMenuContent>
-</DropdownMenu>
+</DropdownMenu>;
 ```
 
 ## Features

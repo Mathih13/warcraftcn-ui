@@ -78,11 +78,11 @@ function DropdownMenuItem({
       data-slot="dropdown-menu-item"
       data-inset={inset}
       className={cn(
-        "fantasy relative flex cursor-pointer select-none items-center gap-2 px-3 py-2 text-sm text-amber-100 outline-none transition-all",
+        "fantasy relative flex cursor-pointer select-none items-center gap-2 px-4 py-2 text-sm text-amber-100 outline-none transition-all",
         "hover:brightness-150 hover:bg-amber-900/30",
         "focus:brightness-150 focus:bg-amber-900/30",
-        "data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
-        "data-[inset]:pl-8",
+        "data-disabled:pointer-events-none data-disabled:opacity-50",
+        "data-inset:pl-8",
         "[&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
         className
       )}
@@ -108,8 +108,8 @@ function DropdownMenuCheckboxItem({
         "fantasy relative flex cursor-pointer select-none items-center gap-2 py-2 pr-8 pl-3 text-sm text-amber-100 outline-none transition-all",
         "hover:brightness-150 hover:bg-amber-900/30",
         "focus:brightness-150 focus:bg-amber-900/30",
-        "data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
-        "data-[inset]:pl-8",
+        "data-disabled:pointer-events-none data-disabled:opacity-50",
+        "data-inset:pl-8",
         "[&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
         className
       )}
@@ -153,8 +153,8 @@ function DropdownMenuRadioItem({
         "fantasy relative flex cursor-pointer select-none items-center gap-2 py-2 pr-8 pl-3 text-sm text-amber-100 outline-none transition-all",
         "hover:brightness-150 hover:bg-amber-900/30",
         "focus:brightness-150 focus:bg-amber-900/30",
-        "data-[disabled]:pointer-events-none data-[disabled]:opacity-50",
-        "data-[inset]:pl-8",
+        "data-disabled:pointer-events-none data-disabled:opacity-50",
+        "data-inset:pl-8",
         "[&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
         className
       )}
@@ -182,8 +182,8 @@ function DropdownMenuLabel({
       data-slot="dropdown-menu-label"
       data-inset={inset}
       className={cn(
-        "fantasy px-3 py-2 text-xs font-semibold uppercase tracking-wider text-amber-400/80",
-        "data-[inset]:pl-8",
+        "fantasy px-3 pt-5 pb-2 text-xs font-semibold uppercase tracking-wider text-amber-400/80",
+        "data-inset:pl-8",
         className
       )}
       {...props}
@@ -243,7 +243,7 @@ function DropdownMenuSubTrigger({
         "hover:brightness-150 hover:bg-amber-900/30",
         "focus:brightness-150 focus:bg-amber-900/30",
         "data-[state=open]:bg-amber-900/30",
-        "data-[inset]:pl-8",
+        "data-inset:pl-8",
         "[&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
         className
       )}
