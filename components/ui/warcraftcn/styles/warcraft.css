@@ -265,3 +265,7 @@
   animation: wc-icon-pulse 3s ease-in-out infinite;
   pointer-events: none;
 }
+
+.clip-path-banner {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
+}
